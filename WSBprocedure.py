@@ -2,7 +2,7 @@ import plotly.express as px
 import pandas as pd
 from WSBobjects import create_tickers
 import re
-from WSBreader import get_data
+from WSBscraper import get_data
 
 #Get the comments by calling the get_data function from the WSBreader module
 commentlist = get_data(100, "wallstreetbets") #adjust this number to pull different amounts of posts, limit 1000
