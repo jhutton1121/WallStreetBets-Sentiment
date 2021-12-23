@@ -1,5 +1,10 @@
 # WallStreetBets-Sentiment
 
+# This was my earliest attempt at this project, using a rules based approach before I learned about named entity recognition and machine learning
+
+This utilizes a rules based approach, and is quite simple, yet terribly written because I was such a noob. I will leave this here as a relic, and to show
+those who might be reading this who are new to coding that you can suck a lot at first, and then apply yourself and suck a bit less later on.
+
 The purpose of this code is to allow you the user to connect to Reddit's API via the Python Reddit API Wrapper, praw. It scrapes comments from the subreddit of your choice over up to the last x amount of posts, sorted by hot. It then creates a graph of the top 10 most mentioned comments, color coded to their sentiment, which is determined using vaderSentiment.
 
 https://github.com/cjhutto/vaderSentiment
